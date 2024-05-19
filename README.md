@@ -11,8 +11,8 @@ The terrain is modelled as a piece-wise linear function:
 
                `z = max{0, x-y,2x+3y+1}`
 
-- *Turning circle radius* - Unit dimension
-- *Vehicle speed* - Unit dimension
+- **Turning circle radius** - Unit dimension
+- **Vehicle speed** - Unit dimension
 
 ## Getting Started
 
