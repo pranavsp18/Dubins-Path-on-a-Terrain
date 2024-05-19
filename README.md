@@ -32,7 +32,7 @@ git clone https://github.com/kaarthiksundar/Dubins.jl.git
 - Step 3: Clone this repository into `Dubins.jl/src` folder using.
 
 ```bash
-git clone https://github.com/kaarthiksundar/Dubins.jl.git
+git clone https://github.com/pranavsp18/Dubins-Path-on-a-Terrain.git
 ```
 
 Step 3: Run `Dubins_path_on_a_terrain.jl` to compute Dubins shortest path.
