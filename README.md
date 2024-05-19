@@ -3,14 +3,9 @@
 ## Problem statement
 This problem is a part of Mechanical Engineering coursework at Texas A&M University (MEEN 689 - SPTP: Decision making Algorithms for UAVs). It computes a shortest path from any given point on the terrain to any other point on the terrain for a curvature constrained vehicle (Dubins' Vehicle/ Fixed-wing UAV).
 
-The terrain is modelled as a piece-wise linear function:
+The terrain is modelled as a piece-wise linear function: `z = max{0, max{cix+diy+ei}}  i = 1,2,...,N`
 
-               `z = max{0, max{cix+diy+ei}}  i = 1,2,...,N`
-
-- For simplicity of the problem, the terrain is assumed to be
-
-               `z = max{0, x-y,2x+3y+1}`
-
+- For simplicity of the problem, the terrain is assumed to be: `z = max{0, x-y,2x+3y+1}`
 - **Turning circle radius** - Unit dimension
 - **Vehicle speed** - Unit dimension
 
