@@ -36,3 +36,6 @@ git clone https://github.com/pranavsp18/Dubins-Path-on-a-Terrain.git
 ```
 
 Step 3: Run `Dubins_path_on_a_terrain.jl` to compute Dubins shortest path.
+
+## References
+https://github.com/kaarthiksundar/Dubins.jl
