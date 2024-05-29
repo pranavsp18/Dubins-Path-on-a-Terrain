@@ -13,7 +13,7 @@ The terrain is modelled as a piece-wise linear function: `z = max{0, max{(c_i)x+
 
 ### Working
 
-Each plane is rotated about its intersection with *z = 0* plane and a new point in the rotated plane is obtained. This is done for both initial and final points. Dubins' path is obtained with these new points along with heading at each location.
+Each plane is rotated about its intersection with $z = 0$ plane and a new point in the rotated plane is obtained. This is done for both initial and final points. Dubins' path is obtained with these new points along with heading at each location.
 
 ### Script
 
